@@ -1,9 +1,9 @@
 import { Particle } from "@/components/Particle";
 import { createFileRoute } from "@tanstack/react-router";
 import { Col, Container, Row } from "react-bootstrap";
-import homeLogo from "@/assets/home-main.svg";
+import homeLogo from "@/assets/home-main.png";
 import { Type } from "@/components/Type";
-import myImg from "@/assets/avatar.svg";
+import myImg from "@/assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -46,7 +46,7 @@ function RouteComponent() {
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                style={{ maxHeight: "400px" }}
               />
             </Col>
           </Row>
@@ -92,7 +92,12 @@ function RouteComponent() {
             </Col>
             <Col md={4} className="myAvtar">
               <Tilt>
-                <img src={myImg} className="img-fluid" alt="avatar" />
+                <img
+                  src={myImg}
+                  className="img-fluid"
+                  alt="avatar"
+                  style={{ maxHeight: "300px" }}
+                />
               </Tilt>
             </Col>
           </Row>
