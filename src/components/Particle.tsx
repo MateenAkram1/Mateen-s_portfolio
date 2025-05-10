@@ -36,12 +36,12 @@ export function Particle() {
             speed: 0.05,
           },
           size: {
-            value: 1,
+            value: 1.2,
           },
           opacity: {
             animation: {
               enable: true,
-              speed: 1,
+              speed: 1.2,
             },
             value: {
               min: 0.05,
