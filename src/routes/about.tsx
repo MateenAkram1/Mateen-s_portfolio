@@ -6,7 +6,7 @@ import laptopImg from "@/assets/about.png";
 import { Techstack } from "@/components/Techstack";
 import { Toolstack } from "@/components/Toolstack";
 
-export const Route = createFileRoute("/about/")({
+export const Route = createFileRoute("/about")({
   component: RouteComponent,
 });
 
