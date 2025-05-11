@@ -7,9 +7,8 @@ export function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "left" }}>
             Hello! I'm <span className="purple">Jon Haywood</span>, I work as a{" "}
-            <span className="purple">software developer</span> and I
-            <br />
-            am based in beautiful <span className="purple">Colorado</span> 🏔️.
+            <span className="purple">software developer</span> and I am based in
+            beautiful <span className="purple">Colorado</span> 🏔️.
             <br />
             <br />
             My BS is in <span className="purple">Computer Science</span> and I
