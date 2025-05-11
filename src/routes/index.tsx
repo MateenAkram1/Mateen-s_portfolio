@@ -5,11 +5,7 @@ import homeLogo from "@/assets/home-main.png";
 import { Type } from "@/components/Type";
 import myImg from "@/assets/avatar.png";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiFillInstagram,
-  AiOutlineTwitter,
-} from "react-icons/ai";
+import { AiFillGithub, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 export const Route = createFileRoute("/")({
@@ -133,17 +129,7 @@ function RouteComponent() {
                 </li>
                 <li className="social-icons">
                   <a
-                    href="https://twitter.com/Soumyajit4419"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="icon-colour  home-social-icons"
-                  >
-                    <AiOutlineTwitter />
-                  </a>
-                </li>
-                <li className="social-icons">
-                  <a
-                    href="https://www.linkedin.com/in/soumyajit4419/"
+                    href="https://www.linkedin.com/in/jonathanhaywood/"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour  home-social-icons"
@@ -153,12 +139,12 @@ function RouteComponent() {
                 </li>
                 <li className="social-icons">
                   <a
-                    href="https://www.instagram.com/soumyajit4419"
+                    href="mailto:jonathan.haywood@gmail.com"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour home-social-icons"
                   >
-                    <AiFillInstagram />
+                    <AiOutlineMail />
                   </a>
                 </li>
               </ul>
