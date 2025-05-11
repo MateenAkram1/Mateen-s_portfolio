@@ -575,13 +575,6 @@ button:focus {
   text-align: center;
 }
 
-.tech-icons small {
-  color: var(--imp-text-color);
-  display: block;
-  font-size: 0.8rem;
-  font-weight: bold;
-}
-
 .tech-label {
   color: var(--imp-text-color);
   display: block;
