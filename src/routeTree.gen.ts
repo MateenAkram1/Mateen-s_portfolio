@@ -11,11 +11,18 @@
 // Import Routes
 
 import { Route as rootRoute } from './routes/__root'
+import { Route as ResumeImport } from './routes/resume'
 import { Route as ProjectImport } from './routes/project'
 import { Route as AboutImport } from './routes/about'
 import { Route as IndexImport } from './routes/index'
 
 // Create/Update Routes
+
+const ResumeRoute = ResumeImport.update({
+  id: '/resume',
+  path: '/resume',
+  getParentRoute: () => rootRoute,
+} as any)
 
 const ProjectRoute = ProjectImport.update({
   id: '/project',
@@ -60,6 +67,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ProjectImport
       parentRoute: typeof rootRoute
     }
+    '/resume': {
+      id: '/resume'
+      path: '/resume'
+      fullPath: '/resume'
+      preLoaderRoute: typeof ResumeImport
+      parentRoute: typeof rootRoute
+    }
   }
 }
 
@@ -69,12 +83,14 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/project': typeof ProjectRoute
+  '/resume': typeof ResumeRoute
 }
 
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/project': typeof ProjectRoute
+  '/resume': typeof ResumeRoute
 }
 
 export interface FileRoutesById {
@@ -82,14 +98,15 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/project': typeof ProjectRoute
+  '/resume': typeof ResumeRoute
 }
 
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/about' | '/project'
+  fullPaths: '/' | '/about' | '/project' | '/resume'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/about' | '/project'
-  id: '__root__' | '/' | '/about' | '/project'
+  to: '/' | '/about' | '/project' | '/resume'
+  id: '__root__' | '/' | '/about' | '/project' | '/resume'
   fileRoutesById: FileRoutesById
 }
 
@@ -97,12 +114,14 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
   ProjectRoute: typeof ProjectRoute
+  ResumeRoute: typeof ResumeRoute
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
   ProjectRoute: ProjectRoute,
+  ResumeRoute: ResumeRoute,
 }
 
 export const routeTree = rootRoute
@@ -117,7 +136,8 @@ export const routeTree = rootRoute
       "children": [
         "/",
         "/about",
-        "/project"
+        "/project",
+        "/resume"
       ]
     },
     "/": {
@@ -128,6 +148,9 @@ export const routeTree = rootRoute
     },
     "/project": {
       "filePath": "project.tsx"
+    },
+    "/resume": {
+      "filePath": "resume.tsx"
     }
   }
 }
