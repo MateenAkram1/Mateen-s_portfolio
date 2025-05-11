@@ -1,15 +1,10 @@
 import Typewriter from "typewriter-effect";
 
-export function Type() {
+export function Type({ strings }: { strings: string[] }) {
   return (
     <Typewriter
       options={{
-        strings: [
-          "Software Developer",
-          "Freelancer",
-          "MERN Stack Developer",
-          "Open Source Contributor",
-        ],
+        strings,
         autoStart: true,
         loop: true,
         deleteSpeed: 50,

@@ -37,7 +37,14 @@ function RouteComponent() {
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
-                <Type />
+                <Type
+                  strings={[
+                    "Senior Web Developer",
+                    "Full Stack Engineer",
+                    "AI Enthusiast",
+                    "Open Source Contributor",
+                  ]}
+                />
               </div>
             </Col>
 
@@ -60,34 +67,40 @@ function RouteComponent() {
                 LET ME <span className="purple"> INTRODUCE </span> MYSELF
               </h1>
               <p className="home-about-body">
-                I fell in love with programming and I have at least learnt
-                something, I think… 🤷‍♂️
+                I’ve been writing code for over{" "}
+                <b className="purple">15 years</b>, and I love learning new
+                things, <b className="purple">solving hard problems</b> and
+                building <i>awesome software</i>.
                 <br />
-                <br />I am fluent in classics like
+                <br />
+                I’m an <b className="purple">expert</b> in{" "}
                 <i>
-                  <b className="purple"> C++, Javascript and Go. </b>
+                  <b className="purple">JavaScript</b>,{" "}
+                  <b className="purple">TypeScript</b>,{" "}
+                  <b className="purple">C#</b> and{" "}
+                  <b className="purple">Python</b>
                 </i>
+                .
                 <br />
-                <br />
-                My field of Interest's are building new &nbsp;
+                <br />I enjoy crafting{" "}
                 <i>
-                  <b className="purple">Web Technologies and Products </b> and
-                  also in areas related to <b className="purple">Blockchain.</b>
-                </i>
+                  <b className="purple">cloud-based web apps</b>
+                </i>{" "}
+                and exploring how <b className="purple">generative AI</b> can
+                make everyday tools smarter.
                 <br />
                 <br />
-                Whenever possible, I also apply my passion for developing
-                products with <b className="purple">Node.js</b> and
+                You'll often find me building apps with{" "}
+                <b className="purple">React & Vite</b> or with frameworks
+                <br />
+                like <b className="purple">Next.js</b> and creating awesome
+                interfaces with{" "}
                 <i>
-                  <b className="purple">
-                    {" "}
-                    Modern Javascript Library and Frameworks
-                  </b>
-                </i>
-                &nbsp; like
-                <i>
-                  <b className="purple"> React.js and Next.js</b>
-                </i>
+                  <b className="purple">Shadcn + Tailwind CSS</b> or{" "}
+                  <b className="purple">Material UI</b>
+                </i>{" "}
+                that're running on <b className="purple">serverless setups</b>{" "}
+                to keep things fast and flexible.
               </p>
             </Col>
             <Col md={4} className="myAvtar">
