@@ -1,16 +1,5 @@
 import { Col, Row } from "react-bootstrap";
-import {
-  DiDotnet,
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-  DiNetmagazine,
-  DiPhp,
-  DiVisualstudio,
-} from "react-icons/di";
+import { DiNodejs, DiPython, DiNetmagazine } from "react-icons/di";
 import {
   SiRedis,
   SiNextdotjs,
@@ -32,6 +21,7 @@ import {
   SiSass,
   SiCss3,
   SiHtml5,
+  SiPhp,
 } from "react-icons/si";
 
 export function Techstack() {
@@ -58,6 +48,15 @@ export function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiTypescript title="TypeScript" />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPhp title="PHP" />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPython title="Python" />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiNetmagazine title="C# and ASP.NET" />
+      </Col>
 
       {/* Front-end Frameworks */}
       <Col xs={4} md={2} className="tech-icons">
@@ -72,7 +71,7 @@ export function Techstack() {
 
       {/* Back-end & DevOps */}
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs title="Node.js" />
+        <DiNodejs title="Node.js" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiDocker title="Docker" />
