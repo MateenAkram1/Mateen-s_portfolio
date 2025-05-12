@@ -44,12 +44,11 @@ function RouteComponent() {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={5} className="home-col">
               <img
                 src={homeLogo}
                 alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "400px" }}
+                className="img-fluid home-image"
               />
             </Col>
           </Row>
@@ -59,7 +58,7 @@ function RouteComponent() {
         <Container>
           <Row>
             <Col md={8} className="home-about-description">
-              <h1 style={{ fontSize: "2.6em" }}>
+              <h1 className="home-about-heading">
                 LET ME <span className="purple"> INTRODUCE </span> MYSELF
               </h1>
               <p className="home-about-body">
@@ -103,9 +102,8 @@ function RouteComponent() {
               <Tilt>
                 <img
                   src={myImg}
-                  className="img-fluid"
+                  className="img-fluid avatar-image"
                   alt="avatar"
-                  style={{ maxHeight: "300px" }}
                 />
               </Tilt>
             </Col>

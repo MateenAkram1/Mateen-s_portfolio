@@ -429,6 +429,26 @@ button:focus {
   color: #700c86 !important;
 }
 
+/* Added styles for the home section column */
+.home-col {
+  padding-bottom: 20px;
+}
+
+/* Added styles for the home section image */
+.home-image {
+  max-height: 400px;
+}
+
+/* Added styles for the home-about-section heading */
+.home-about-heading {
+  font-size: 2.6em;
+}
+
+/* Added styles for the avatar image */
+.avatar-image {
+  max-height: 300px;
+}
+
 /* --------- */
 /* Footer */
 /* --------- */
