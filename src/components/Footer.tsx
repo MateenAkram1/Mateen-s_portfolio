@@ -21,7 +21,6 @@ export function Footer() {
             <li className="social-icons">
               <a
                 href="https://github.com/JonHaywood"
-                style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
                 title="GitHub"
@@ -32,7 +31,6 @@ export function Footer() {
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/jonathanhaywood/"
-                style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
                 title="LinkedIn"
@@ -43,7 +41,6 @@ export function Footer() {
             <li className="social-icons">
               <a
                 href="mailto:jonathan.haywood@gmail.com"
-                style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
                 title="Email"

@@ -425,6 +425,10 @@ button:focus {
   text-align: center !important;
 }
 
+.footer a {
+  color: white;
+}
+
 @media (max-width: 767px) {
   .footer-copywright {
     text-align: center !important;
