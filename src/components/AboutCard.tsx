@@ -5,7 +5,7 @@ export function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "left" }}>
+          <p>
             Hello! I'm <span className="purple">Jon Haywood</span>, I work as a{" "}
             <span className="purple">software developer</span> and I am based in
             beautiful <span className="purple">Colorado</span> 🏔️.
