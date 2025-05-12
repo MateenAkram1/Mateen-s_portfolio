@@ -17,9 +17,7 @@ export function ProjectCard(props: ProjectCardProps) {
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify" }}>
-          {props.description}
-        </Card.Text>
+        <Card.Text className="project-card-text">{props.description}</Card.Text>
         <Button variant="primary" href={props.ghLink} target="_blank">
           <BsGithub /> &nbsp;GitHub
         </Button>
@@ -33,7 +31,7 @@ export function ProjectCard(props: ProjectCardProps) {
             variant="primary"
             href={props.demoLink}
             target="_blank"
-            style={{ marginLeft: "10px" }}
+            className="project-card-button"
           >
             <CgWebsite /> &nbsp;
             {"Demo"}
