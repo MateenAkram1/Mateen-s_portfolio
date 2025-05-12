@@ -9,10 +9,12 @@ export function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Jon Haywood</h3>
+          <div className="footer-text">
+            Designed and Developed by Jon Haywood
+          </div>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year}</h3>
+          <div className="footer-text">Copyright © {year}</div>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
@@ -22,6 +24,7 @@ export function Footer() {
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
+                title="GitHub"
               >
                 <AiFillGithub />
               </a>
@@ -32,6 +35,7 @@ export function Footer() {
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
+                title="LinkedIn"
               >
                 <FaLinkedinIn />
               </a>
@@ -42,6 +46,7 @@ export function Footer() {
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
+                title="Email"
               >
                 <AiOutlineMail />
               </a>

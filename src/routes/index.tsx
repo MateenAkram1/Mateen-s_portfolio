@@ -123,6 +123,7 @@ function RouteComponent() {
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour home-social-icons"
+                    title="GitHub"
                   >
                     <AiFillGithub />
                   </a>
@@ -133,6 +134,7 @@ function RouteComponent() {
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour  home-social-icons"
+                    title="LinkedIn"
                   >
                     <FaLinkedinIn />
                   </a>
@@ -143,6 +145,7 @@ function RouteComponent() {
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour home-social-icons"
+                    title="Email"
                   >
                     <AiOutlineMail />
                   </a>

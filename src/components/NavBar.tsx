@@ -102,6 +102,7 @@ export function NavBar() {
                 href="https://github.com/JonHaywood/Portfolio"
                 target="_blank"
                 className="fork-btn-inner"
+                title="Portfolio GitHub Repository"
               >
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
                 <AiFillStar style={{ fontSize: "1.1em" }} />

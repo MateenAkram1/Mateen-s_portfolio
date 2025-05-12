@@ -435,7 +435,7 @@ button:focus {
   }
 }
 
-.footer h3 {
+.footer .footer-text {
   font-size: 1em;
   color: white !important;
   margin-top: 0.5em !important;
