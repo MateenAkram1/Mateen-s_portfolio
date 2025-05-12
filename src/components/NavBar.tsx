@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/logo.webp";
 import { Button } from "react-bootstrap";
 import { Link } from "@tanstack/react-router";
 import { CgGitFork } from "react-icons/cg";

@@ -1,9 +1,9 @@
 import { Particle } from "@/components/Particle";
 import { createFileRoute } from "@tanstack/react-router";
 import { Col, Container, Row } from "react-bootstrap";
-import homeLogo from "@/assets/home-main.png";
+import homeLogo from "@/assets/home-main.webp";
 import { Type } from "@/components/Type";
-import myImg from "@/assets/avatar.png";
+import myImg from "@/assets/avatar.webp";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";

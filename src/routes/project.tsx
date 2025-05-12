@@ -2,9 +2,9 @@ import { Particle } from "@/components/Particle";
 import { ProjectCard } from "@/components/ProjectCard";
 import { createFileRoute } from "@tanstack/react-router";
 import { Col, Container, Row } from "react-bootstrap";
-import realTimeAudio from "@/assets/projects/realtime-audio.png";
-import gptAssistant from "@/assets/projects/gpt-assistant.png";
-import gamesAI from "@/assets/projects/games-ai.png";
+import realTimeAudio from "@/assets/projects/realtime-audio.webp";
+import gptAssistant from "@/assets/projects/gpt-assistant.webp";
+import gamesAI from "@/assets/projects/games-ai.webp";
 
 export const Route = createFileRoute("/project")({
   component: RouteComponent,

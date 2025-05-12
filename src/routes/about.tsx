@@ -2,7 +2,7 @@ import { AboutCard } from "@/components/AboutCard";
 import { Particle } from "@/components/Particle";
 import { createFileRoute } from "@tanstack/react-router";
 import { Col, Container, Row } from "react-bootstrap";
-import laptopImg from "@/assets/about.png";
+import laptopImg from "@/assets/about.webp";
 import { Techstack } from "@/components/Techstack";
 import { Toolstack } from "@/components/Toolstack";
 
