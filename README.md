@@ -1,54 +1,75 @@
-# React + TypeScript + Vite
+<h2 align="center">
+  Portfolio Website<br/>
+  <a href="https://jonhaywood.dev/" target="_blank">jonhaywood.dev</a>
+</h2>
+<div align="center">
+  <img alt="Demo" src="./README.png" />
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<br/>
 
-Currently, two official plugins are available:
+<center>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
+[![forthebadge](https://forthebadge.com/images/badges/made-with-typescript.svg)](https://forthebadge.com) &nbsp;
+[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
+![GitHub Repo stars](https://img.shields.io/github/stars/jonhaywood/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
+![GitHub forks](https://img.shields.io/github/forks/jonhaywood/Portfolio?color=red&logo=github&style=for-the-badge)
 
-## Expanding the ESLint configuration
+</center>
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+<h3 align="center">
+    🔹
+    <a href="https://github.com/jonhaywood/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
+    🔹
+    <a href="https://github.com/jonhaywood/Portfolio/issues">Request Feature</a>
+</h3>
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+# Portfolio
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+My personal portfolio <a href="https://jonhaywood.dev/" target="_blank">jonhaywood.dev</a> which features my github projects, resume and technical skills.<br/>
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## TL;DR
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+You can fork this repo to modify and make changes of your own! Please give me proper credit by linking back to [JonHaywood](https://github.com/soumyajit4419/Portfolio). Thanks!
+
+This repo was based on [Soumyajit4419](https://github.com/soumyajit4419/Portfolio)'s excellent work. I rebuilt it using Typescript + Vite, Tanstack Router and modern packages.
+
+## Built With
+
+This project was built using the following technologies.
+
+- Typescript
+- Vite
+- Bootstrap CSS
+- Tanstack Router
+
+## Features
+
+- 📱 **Responsive Design**: Fully responsive layout using React-Bootstrap and custom CSS.
+- 🔄 **Dynamic Routing**: Multi-page layout with dynamic routing powered by TanStack Router.
+- ✨ **Interactive Animations**: Particle effects and smooth scrolling for enhanced user experience.
+- 🧰 **Developer Tools Integration**: Includes TanStack Router DevTools for debugging and development.
+- 🔧 **Customizable**: Easy to modify and extend with clear component structure and routing.
+
+## Getting Started
+
+Clone this repository. Ensure you have [Node.js](https://nodejs.org/) and [pnpm](https://pnpm.io/) installed.
+
+## 🛠 Installation and Setup Instructions
+
+1. First, run: `pnpm install`
+2. In the project directory, run: `pnpm dev`
+
+This will start the app in the development mode. Open [http://localhost:5173](http://localhost:5173) to view it in the browser. The page will reload if you make edits.
+
+## Usage Instructions
+
+Open the project folder and Navigate to `/src/components/`. <br/>
+You will find all the components used and you can edit your information accordingly.
+
+### Show your support
+
+Give a ⭐ if you like this website!
+
+<a href="https://www.buymeacoffee.com/jonhaywood" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
