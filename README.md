@@ -20,9 +20,9 @@
 
 <h3 align="center">
     🔹
-    <a href="https://github.com/JonHaywood/porfolio/issues">Report Bug</a> &nbsp; &nbsp;
+    <a href="https://github.com/JonHaywood/portfolio/issues">Report Bug</a> &nbsp; &nbsp;
     🔹
-    <a href="https://github.com/JonHaywood/porfolio/issues">Request Feature</a>
+    <a href="https://github.com/JonHaywood/portfolio/issues">Request Feature</a>
 </h3>
 
 # Portfolio
@@ -31,9 +31,9 @@ My personal portfolio <a href="https://jonhaywood.dev/" target="_blank">jonhaywo
 
 ## TL;DR
 
-You can fork this repo to modify and make changes of your own! Please give me proper credit by linking back to [JonHaywood](https://github.com/soumyajit4419/porfolio). Thanks!
+You can fork this repo to modify and make changes of your own! Please give me proper credit by linking back to [JonHaywood](https://github.com/JonHaywood/portfolio). Thanks!
 
-This repo was based on [Soumyajit4419](https://github.com/soumyajit4419/porfolio)'s excellent work. I rebuilt it using Typescript + Vite, Tanstack Router and modern packages.
+This repo was based on [Soumyajit4419](https://github.com/soumyajit4419/Portfolio)'s excellent work. I rebuilt it using Typescript + Vite, Tanstack Router and modern packages.
 
 ## Built With
 
