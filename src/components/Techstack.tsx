@@ -26,7 +26,7 @@ import {
 
 export function Techstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+    <Row className="skillset-row">
       {/* Markup & Styling */}
       <Col xs={4} md={2} className="tech-icons">
         <span className="tech-label">HTML5</span>

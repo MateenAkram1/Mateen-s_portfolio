@@ -660,6 +660,11 @@ button:focus {
   text-align: center;
 }
 
+.skillset-row {
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
 @media (max-width: 767px) {
   .tech-icons {
     margin: 10px !important;

@@ -4,7 +4,7 @@ import { SiGithub, SiJira, SiPostman, SiSlack } from "react-icons/si";
 
 export function Toolstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+    <Row className="skillset-row">
       <Col xs={4} md={2} className="tech-icons">
         <span className="tech-label">Jira</span>
         <SiJira title="Jira" />
