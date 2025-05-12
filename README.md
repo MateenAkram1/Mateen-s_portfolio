@@ -13,16 +13,16 @@
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
 [![forthebadge](https://forthebadge.com/images/badges/made-with-typescript.svg)](https://forthebadge.com) &nbsp;
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/jonhaywood/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/jonhaywood/Portfolio?color=red&logo=github&style=for-the-badge)
+![GitHub Repo stars](https://img.shields.io/github/stars/jonhaywood/porfolio?color=red&logo=github&style=for-the-badge) &nbsp;
+![GitHub forks](https://img.shields.io/github/forks/jonhaywood/porfolio?color=red&logo=github&style=for-the-badge)
 
 </center>
 
 <h3 align="center">
     🔹
-    <a href="https://github.com/jonhaywood/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
+    <a href="https://github.com/jonhaywood/porfolio/issues">Report Bug</a> &nbsp; &nbsp;
     🔹
-    <a href="https://github.com/jonhaywood/Portfolio/issues">Request Feature</a>
+    <a href="https://github.com/jonhaywood/porfolio/issues">Request Feature</a>
 </h3>
 
 # Portfolio
@@ -31,9 +31,9 @@ My personal portfolio <a href="https://jonhaywood.dev/" target="_blank">jonhaywo
 
 ## TL;DR
 
-You can fork this repo to modify and make changes of your own! Please give me proper credit by linking back to [JonHaywood](https://github.com/soumyajit4419/Portfolio). Thanks!
+You can fork this repo to modify and make changes of your own! Please give me proper credit by linking back to [JonHaywood](https://github.com/soumyajit4419/porfolio). Thanks!
 
-This repo was based on [Soumyajit4419](https://github.com/soumyajit4419/Portfolio)'s excellent work. I rebuilt it using Typescript + Vite, Tanstack Router and modern packages.
+This repo was based on [Soumyajit4419](https://github.com/soumyajit4419/porfolio)'s excellent work. I rebuilt it using Typescript + Vite, Tanstack Router and modern packages.
 
 ## Built With
 
