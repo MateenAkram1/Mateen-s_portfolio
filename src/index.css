@@ -214,12 +214,10 @@ button:focus {
   width: 100%;
 }
 
-/* Added styles for NavBar icons */
 .navbar-icon {
   margin-bottom: 2px;
 }
 
-/* Added styles for larger NavBar icons */
 .navbar-icon-large {
   font-size: 1.1em;
 }
@@ -429,22 +427,18 @@ button:focus {
   color: #700c86 !important;
 }
 
-/* Added styles for the home section column */
 .home-col {
   padding-bottom: 20px;
 }
 
-/* Added styles for the home section image */
 .home-image {
   max-height: 400px;
 }
 
-/* Added styles for the home-about-section heading */
 .home-about-heading {
   font-size: 2.6em;
 }
 
-/* Added styles for the avatar image */
 .avatar-image {
   max-height: 300px;
 }
@@ -605,7 +599,6 @@ button:focus {
   padding-top: 10px !important;
 }
 
-/* Added styles for the project section row */
 .project-row {
   justify-content: center;
   padding-bottom: 10px;
