@@ -17,7 +17,7 @@ function RouteComponent() {
       <Container>
         <Row className="centered-row">
           <Col md={7} className="about-col">
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+            <h1 className="about-heading">
               Who <strong className="purple">I Am</strong>
             </h1>
             <AboutCard />

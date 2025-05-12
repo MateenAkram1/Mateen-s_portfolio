@@ -626,6 +626,11 @@ button:focus {
   padding-bottom: 50px;
 }
 
+.about-section .about-heading {
+  font-size: 2.1em;
+  padding-bottom: 20px;
+}
+
 .about-section .about-img {
   padding-top: 120px;
   padding-bottom: 50px;
