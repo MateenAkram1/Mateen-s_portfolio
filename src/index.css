@@ -263,6 +263,10 @@ button:focus {
   padding-top: 80px !important;
 }
 
+.home-header .heading {
+  padding-bottom: 15px;
+}
+
 .home-section {
   position: relative;
   z-index: -1;
@@ -276,6 +280,11 @@ button:focus {
 .home-content {
   padding: 9rem 0 2rem !important;
   color: whitesmoke;
+  text-align: left;
+}
+
+.home-content .type-wrapper {
+  padding: 50px;
   text-align: left;
 }
 
@@ -464,6 +473,10 @@ button:focus {
   background-image: var(--section-background-color) !important;
 }
 
+.project-section .white-text {
+  color: white;
+}
+
 .project-card {
   padding-top: 50px !important;
   padding-bottom: 50px !important;
@@ -563,6 +576,22 @@ button:focus {
   color: white !important;
 }
 
+.about-section .centered-row {
+  justify-content: center;
+  padding: 10px;
+}
+
+.about-section .about-col {
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.about-section .about-img {
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+
 .tech-icons {
   font-size: 4.5em !important;
   margin: 15px !important;
@@ -630,6 +659,20 @@ button:focus {
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
+}
+
+.resume-section .download-row {
+  justify-content: center;
+  position: relative;
+}
+
+.resume-section .download-btn {
+  max-width: 250px;
+}
+
+.resume-section .resume {
+  display: flex;
+  justify-content: center;
 }
 
 .resume {

@@ -18,7 +18,7 @@ function RouteComponent() {
         <h1 className="project-heading">
           My Project <strong className="purple">Playground</strong>
         </h1>
-        <p style={{ color: "white" }}>
+        <p className="white-text">
           Explore my side projects, small apps and scripts that fuel my passion
           for code.
         </p>

@@ -15,25 +15,14 @@ function RouteComponent() {
     <Container fluid className="about-section">
       <Particle />
       <Container>
-        <Row style={{ justifyContent: "center", padding: "10px" }}>
-          <Col
-            md={7}
-            style={{
-              justifyContent: "center",
-              paddingTop: "30px",
-              paddingBottom: "50px",
-            }}
-          >
+        <Row className="centered-row">
+          <Col md={7} className="about-col">
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
               Who <strong className="purple">I Am</strong>
             </h1>
             <AboutCard />
           </Col>
-          <Col
-            md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
-            className="about-img"
-          >
+          <Col md={5} className="about-img">
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>

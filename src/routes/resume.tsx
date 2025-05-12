@@ -35,12 +35,12 @@ function RouteComponent() {
     <div>
       <Container fluid className="resume-section">
         <Particle />
-        <Row style={{ justifyContent: "center", position: "relative" }}>
+        <Row className="download-row">
           <Button
             variant="primary"
             href={pdf}
             target="_blank"
-            style={{ maxWidth: "250px" }}
+            className="download-btn"
           >
             <AiOutlineDownload />
             &nbsp;Download CV
@@ -53,12 +53,12 @@ function RouteComponent() {
           </Document>
         </Row>
 
-        <Row style={{ justifyContent: "center", position: "relative" }}>
+        <Row className="download-row">
           <Button
             variant="primary"
             href={pdf}
             target="_blank"
-            style={{ maxWidth: "250px" }}
+            className="download-btn"
           >
             <AiOutlineDownload />
             &nbsp;Download CV

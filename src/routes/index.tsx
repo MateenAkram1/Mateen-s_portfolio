@@ -20,7 +20,7 @@ function RouteComponent() {
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
+              <h1 className="heading">
                 Hi There!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏾
@@ -32,7 +32,7 @@ function RouteComponent() {
                 <strong className="main-name"> JON HAYWOOD</strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div className="type-wrapper">
                 <Type
                   strings={[
                     "Senior Web Developer",
