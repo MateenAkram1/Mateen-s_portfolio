@@ -60,7 +60,7 @@ export function NavBar() {
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => setExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+                <AiOutlineHome className="navbar-icon" /> Home
               </Nav.Link>
             </Nav.Item>
 
@@ -70,7 +70,7 @@ export function NavBar() {
                 to="/about"
                 onClick={() => setExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+                <AiOutlineUser className="navbar-icon" /> About
               </Nav.Link>
             </Nav.Item>
 
@@ -80,9 +80,7 @@ export function NavBar() {
                 to="/project"
                 onClick={() => setExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
+                <AiOutlineFundProjectionScreen className="navbar-icon" />{" "}
                 Projects
               </Nav.Link>
             </Nav.Item>
@@ -93,7 +91,7 @@ export function NavBar() {
                 to="/resume"
                 onClick={() => setExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                <CgFileDocument className="navbar-icon" /> Resume
               </Nav.Link>
             </Nav.Item>
 
@@ -104,8 +102,8 @@ export function NavBar() {
                 className="fork-btn-inner"
                 title="Portfolio GitHub Repository"
               >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
+                <CgGitFork className="navbar-icon-larger" />{" "}
+                <AiFillStar className="navbar-icon-large" />
               </Button>
             </Nav.Item>
           </Nav>

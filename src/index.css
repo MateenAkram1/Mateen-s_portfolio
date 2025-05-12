@@ -214,6 +214,19 @@ button:focus {
   width: 100%;
 }
 
+/* Added styles for NavBar icons */
+.navbar-icon {
+  margin-bottom: 2px;
+}
+
+/* Added styles for larger NavBar icons */
+.navbar-icon-large {
+  font-size: 1.1em;
+}
+.navbar-icon-larger {
+  font-size: 1.2em;
+}
+
 /* --------- */
 /* Home section */
 /* --------- */
@@ -562,6 +575,12 @@ button:focus {
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
+}
+
+/* Added styles for the project section row */
+.project-row {
+  justify-content: center;
+  padding-bottom: 10px;
 }
 
 /* --------- */

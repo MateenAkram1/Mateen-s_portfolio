@@ -22,7 +22,7 @@ function RouteComponent() {
           Explore my side projects, small apps and scripts that fuel my passion
           for code.
         </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Row className="project-row">
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={realTimeAudio}
