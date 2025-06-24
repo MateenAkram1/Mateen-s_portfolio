@@ -1,33 +1,53 @@
 import { Col, Row } from "react-bootstrap";
 import { DiNodejs, DiPython, DiNetmagazine } from "react-icons/di";
 import {
-  SiRedis,
-  SiNextdotjs,
   SiPostgresql,
-  SiAmazonwebservices,
-  SiMongodb,
-  SiJest,
-  SiBabel,
-  SiWebpack,
-  SiYarn,
   SiNpm,
   SiGit,
-  SiDocker,
-  SiRedux,
   SiReact,
-  SiTypescript,
   SiJavascript,
   SiTailwindcss,
-  SiSass,
   SiCss3,
   SiHtml5,
   SiPhp,
+  SiC,
+  SiCplusplus,
+  SiKotlin,
+  SiDart,
+  SiSelenium,
+  SiUnity,
+  SiMysql,
+  SiFigma,
+  SiFlutter,
+  SiAssemblyscript,
+  SiTensorflow,
+  SiFastapi,
+  SiFirebase,
+  SiFlask
 } from "react-icons/si";
 
 export function Techstack() {
   return (
     <Row className="skillset-row">
-      {/* Markup & Styling */}
+      
+      <Col xs={4} md={2} className="tech-icons">
+        <span className="tech-label">Python</span>
+        <DiPython title="Python" />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <span className="tech-label">C</span>
+        <SiC title="C" />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <span className="tech-label">C++</span>
+        <SiCplusplus title="C++" ></SiCplusplus>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <span className="tech-label">Kotlin</span>
+        <SiKotlin title="Kotlin" />
+        </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <span className="tech-label">HTML5</span>
         <SiHtml5 title="HTML5" />
@@ -35,10 +55,6 @@ export function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <span className="tech-label">CSS3</span>
         <SiCss3 title="CSS3" />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <span className="tech-label">Sass</span>
-        <SiSass title="Sass" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <span className="tech-label">Tailwind CSS</span>
@@ -51,20 +67,35 @@ export function Techstack() {
         <SiJavascript title="JavaScript" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <span className="tech-label">TypeScript</span>
-        <SiTypescript title="TypeScript" />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <span className="tech-label">PHP</span>
         <SiPhp title="PHP" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <span className="tech-label">Python</span>
-        <DiPython title="Python" />
-      </Col>
+        <span className="tech-label">Dart</span>
+        <SiDart title="Dart" /></Col>
+
       <Col xs={4} md={2} className="tech-icons">
-        <span className="tech-label">C# and ASP.NET</span>
-        <DiNetmagazine title="C# and ASP.NET" />
+        <span className="tech-label">Flutter</span>
+        <SiFlutter title="Flutter" />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <span className="tech-label">TensorFlow</span>
+        <SiTensorflow title="TensorFlow" />
+      </Col>
+      
+      <Col xs={4} md={2} className="tech-icons">
+        <span className="tech-label">Flask</span>
+        <SiFlask title="Flask" />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <span className="tech-label">FastAPI</span>
+        <SiFastapi title="FastAPI" /></Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <span className="tech-label">Selenium</span>
+        <SiSelenium title="Selenium" />
       </Col>
 
       {/* Front-end Frameworks */}
@@ -72,30 +103,16 @@ export function Techstack() {
         <span className="tech-label">React</span>
         <SiReact title="React" />
       </Col>
+
       <Col xs={4} md={2} className="tech-icons">
-        <span className="tech-label">Next.js</span>
-        <SiNextdotjs title="Next.js" />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <span className="tech-label">Redux</span>
-        <SiRedux title="Redux" />
+        <span className="tech-label">React Native</span>
+        <SiReact title="React" />
       </Col>
 
-      {/* Back-end & DevOps */}
       <Col xs={4} md={2} className="tech-icons">
-        <span className="tech-label">Node.js</span>
-        <DiNodejs title="Node.js" />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <span className="tech-label">Docker</span>
-        <SiDocker title="Docker" />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <span className="tech-label">AWS</span>
-        <SiAmazonwebservices title="AWS" />
-      </Col>
+        <span className="tech-label">Unity</span>
+        <SiUnity title="Unity" /></Col>
 
-      {/* Version Control & Package Management */}
       <Col xs={4} md={2} className="tech-icons">
         <span className="tech-label">Git</span>
         <SiGit title="Git" />
@@ -104,40 +121,24 @@ export function Techstack() {
         <span className="tech-label">npm</span>
         <SiNpm title="npm" />
       </Col>
+     
+  
       <Col xs={4} md={2} className="tech-icons">
-        <span className="tech-label">Yarn</span>
-        <SiYarn title="Yarn" />
-      </Col>
+        <span className="tech-label">AssemblyScript</span>
+        <SiAssemblyscript title="AssemblyScript" /></Col>
 
-      {/* Build Tooling */}
       <Col xs={4} md={2} className="tech-icons">
-        <span className="tech-label">Webpack</span>
-        <SiWebpack title="Webpack" />
-      </Col>
+        <span className="tech-label">MySQL</span>
+        <SiMysql title="MySQL" /></Col>
       <Col xs={4} md={2} className="tech-icons">
-        <span className="tech-label">Babel</span>
-        <SiBabel title="Babel" />
+        <span className="tech-label">Firebase</span>
+        <SiFirebase title="Firebase" />
       </Col>
-
-      {/* Testing */}
-      <Col xs={4} md={2} className="tech-icons">
-        <span className="tech-label">Jest</span>
-        <SiJest title="Jest" />
-      </Col>
-
-      {/* Databases & Caching */}
       <Col xs={4} md={2} className="tech-icons">
         <span className="tech-label">PostgreSQL</span>
         <SiPostgresql title="PostgreSQL" />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <span className="tech-label">MongoDB</span>
-        <SiMongodb title="MongoDB" />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <span className="tech-label">Redis</span>
-        <SiRedis title="Redis" />
-      </Col>
+      
     </Row>
   );
 }

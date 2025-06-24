@@ -10,7 +10,7 @@ export function Footer() {
       <Row>
         <Col md="4" className="footer-copywright">
           <div className="footer-text">
-            Designed and Developed by Jon Haywood
+            Designed and Developed by Mateen Akram
           </div>
         </Col>
         <Col md="4" className="footer-copywright">
@@ -20,7 +20,7 @@ export function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/JonHaywood"
+                href="https://github.com/MateenAkram1"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="GitHub"
@@ -30,7 +30,7 @@ export function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/jonathanhaywood/"
+                href="https://www.linkedin.com/in/mateen-akram-b663b0298/"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="LinkedIn"
@@ -40,7 +40,7 @@ export function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="mailto:jonathan.haywood@gmail.com"
+                href="mailto:mateen.akram124@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="Email"

@@ -6,20 +6,20 @@ export function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p>
-            Hello! I'm <span className="purple">Jon Haywood</span>, I work as a{" "}
-            <span className="purple">software developer</span> and I am based in
-            beautiful <span className="purple">Colorado</span> 🏔️.
+            Hello! I'm <span className="purple">Mateen Akram</span>, I am a{" "}
+            <span className="purple">software developer</span> and I have expertise in{" "}
+            <span className="purple">Ai/Ml, App , Web and Game Development.</span> .
             <br />
             <br />
-            My BS is in <span className="purple">Computer Science</span> and I
-            have over <span className="purple">15 years</span> of experience
-            building web applications for healthcare, oil and natural gas,
-            publishing and technology companies.
+            I am pursuing my <span className="purple">Baschelors of Computer Science</span> degree at <span className="purple">Fast Nuces</span>. I am starting my 7th Semester. Over the past few years, I
+            worked on <span className="purple">numerous</span> projects, including
+            <span className="purple"> web applications, mobile apps, and games</span>. Currently I am working on a{" "}
+            <span className="purple">Artificial Intelligence</span> and Machine learning projects.
             <br />
             <br />I love turning{" "}
             <span className="purple">complex challenges</span> into simple,
             user-friendly tools and enjoy experimenting with new tech like{" "}
-            <span className="purple">generative AI</span>.
+            <span className="purple">LLMS, AI models etc</span>.
           </p>
         </blockquote>
       </Card.Body>

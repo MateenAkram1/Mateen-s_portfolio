@@ -29,16 +29,18 @@ function RouteComponent() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> JON HAYWOOD</strong>
+                <strong className="main-name"> Mateen Akram</strong>
               </h1>
 
               <div className="type-wrapper">
                 <Type
                   strings={[
-                    "Senior Web Developer",
+                    "Software Developer",
                     "Full Stack Engineer",
                     "AI Enthusiast",
-                    "Open Source Contributor",
+                    "App Developer",
+                    "Game Developer",
+                    "Full Stack Web Developer",
                   ]}
                 />
               </div>
@@ -62,41 +64,30 @@ function RouteComponent() {
                 LET ME <span className="purple"> INTRODUCE </span> MYSELF
               </h1>
               <p className="home-about-body">
-                I’ve been writing code for over{" "}
-                <b className="purple">15 years</b>, and I love learning new
+                I am a Final Year <b className="purple">Computer Sciences</b> student at Fast{" "}
+                <b className="purple">Fast NUCES</b>, and I love learning new
                 things, <b className="purple">solving hard problems</b> and
                 building <i>awesome software</i>.
                 <br />
                 <br />
                 I’m an <b className="purple">expert</b> in{" "}
                 <i>
+                  <b className="purple">Python</b>,{" "}
                   <b className="purple">JavaScript</b>,{" "}
-                  <b className="purple">TypeScript</b>,{" "}
-                  <b className="purple">C#</b> and{" "}
-                  <b className="purple">Python</b>
+                  <b className="purple">C#</b> ,{" "}
+                  <b className="purple">C++ , Dart, React</b> and many more programming Languages
                 </i>
                 .
                 <br />
                 <br />I enjoy crafting{" "}
                 <i>
-                  <b className="purple">cloud-based web apps</b>
+                  <b className="purple">Ai based applications</b>
                 </i>{" "}
-                and exploring how <b className="purple">generative AI</b> can
-                make everyday tools smarter.
+                and exploring how <b className="purple">Softwares integrated with AI</b> can
+                make everyday tasks more efficient.
                 <br />
                 <br />
-                You'll often find me building apps with{" "}
-                <b className="purple">React & Vite</b> or with frameworks
-                <br />
-                like <b className="purple">Next.js</b> and creating awesome
-                interfaces with{" "}
-                <i>
-                  <b className="purple">Shadcn + Tailwind CSS</b> or{" "}
-                  <b className="purple">Material UI</b>
-                </i>{" "}
-                that're running on <b className="purple">serverless setups</b>{" "}
-                to keep things fast and flexible.
-              </p>
+                </p>
             </Col>
             <Col md={4} className="myAvtar">
               <Tilt>
@@ -117,7 +108,7 @@ function RouteComponent() {
               <ul className="home-about-social-links">
                 <li className="social-icons">
                   <a
-                    href="https://github.com/JonHaywood"
+                    href="https://github.com/MateenAkram1"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour home-social-icons"
@@ -128,7 +119,7 @@ function RouteComponent() {
                 </li>
                 <li className="social-icons">
                   <a
-                    href="https://www.linkedin.com/in/jonathanhaywood/"
+                    href="https://www.linkedin.com/in/mateen-akram-b663b0298"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour  home-social-icons"
@@ -139,7 +130,7 @@ function RouteComponent() {
                 </li>
                 <li className="social-icons">
                   <a
-                    href="mailto:jonathan.haywood@gmail.com"
+                    href="mailto:mateen.akram124@gmail.com"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour home-social-icons"
