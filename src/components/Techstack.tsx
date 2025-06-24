@@ -1,4 +1,5 @@
 import { Col, Row } from "react-bootstrap";
+import { DiPython } from "react-icons/di";
 import {
   SiPostgresql,
   SiNpm,
