@@ -1,5 +1,4 @@
 import { Col, Row } from "react-bootstrap";
-import { DiNodejs, DiPython, DiNetmagazine } from "react-icons/di";
 import {
   SiPostgresql,
   SiNpm,
@@ -17,7 +16,6 @@ import {
   SiSelenium,
   SiUnity,
   SiMysql,
-  SiFigma,
   SiFlutter,
   SiAssemblyscript,
   SiTensorflow,
