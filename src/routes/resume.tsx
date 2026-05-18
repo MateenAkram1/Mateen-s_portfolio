@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import { Particle } from "@/components/Particle";
-import pdf from "@/assets/pdfs/mateens_cv.pdf?url";
+import pdf from "@/assets/pdfs/Mateen_Resume.pdf?url";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -48,8 +48,9 @@ function RouteComponent() {
         </Row>
 
         <Row className="resume">
-          <Document file={pdf} className="d-flex justify-content-center">
+          <Document file={pdf} className="d-flex justify-content-center flex-column align-items-center">
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+            <Page pageNumber={2} scale={width > 786 ? 1.7 : 0.6} className="resume-page-second" />
           </Document>
         </Row>
 

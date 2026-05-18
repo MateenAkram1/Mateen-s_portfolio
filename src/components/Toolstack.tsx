@@ -1,6 +1,6 @@
 import { Col, Row } from "react-bootstrap";
 import { DiVisualstudio } from "react-icons/di";
-import { SiGithub, SiJira, SiPostman, SiAndroidstudio,SiFigma,SiIntellijidea } from "react-icons/si";
+import { SiGithub, SiJira, SiPostman, SiAndroidstudio, SiFigma, SiIntellijidea, SiDocker, SiN8N } from "react-icons/si";
 
 export function Toolstack() {
   return (
@@ -30,8 +30,15 @@ export function Toolstack() {
         <span className="tech-label">Figma</span>
         <SiFigma title="Figma" />
       </Col>
-      
-      
+      <Col xs={4} md={2} className="tech-icons">
+        <span className="tech-label">Docker</span>
+        <SiDocker title="Docker" />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <span className="tech-label">n8n</span>
+        <SiN8N title="n8n" />
+      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <span className="tech-label">GitHub</span>
         <SiGithub title="GitHub" />

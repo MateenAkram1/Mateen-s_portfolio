@@ -604,6 +604,82 @@ button:focus {
   padding-bottom: 10px;
 }
 
+.project-heading-spaced {
+  padding-top: 40px !important;
+}
+
+.experience-intro {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.about-section .white-text {
+  color: white;
+}
+
+.experience-row {
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.experience-col {
+  padding: 15px 20px;
+}
+
+.experience-card-view {
+  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  color: white !important;
+  background-color: transparent !important;
+  border: 1px solid rgba(200, 137, 230, 0.25) !important;
+  height: 100% !important;
+  transition: all 0.4s ease 0s !important;
+}
+
+.experience-card-view:hover {
+  transform: scale(1.02) !important;
+  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+}
+
+.experience-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.experience-role {
+  font-size: 1.25em;
+  margin: 0;
+  color: white;
+}
+
+.experience-period {
+  font-size: 0.95em;
+  white-space: nowrap;
+}
+
+.experience-company {
+  margin-bottom: 12px;
+  color: #c8c8c8;
+}
+
+.experience-highlights {
+  text-align: left;
+  padding-left: 1.2rem;
+  margin: 0;
+}
+
+.experience-highlights li {
+  margin-bottom: 8px;
+  color: #e0e0e0;
+}
+
+.resume-page-second {
+  margin-top: 20px;
+}
+
 /* --------- */
 /* About */
 /* --------- */

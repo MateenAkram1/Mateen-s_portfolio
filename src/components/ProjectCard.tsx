@@ -18,13 +18,11 @@ export function ProjectCard(props: ProjectCardProps) {
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text className="project-card-text">{props.description}</Card.Text>
-        <Button variant="primary" href={props.ghLink} target="_blank">
-          <BsGithub /> &nbsp;GitHub
-        </Button>
-        {"\n"}
-        {"\n"}
-
-        {/* If the component contains Demo link it will render the below component  */}
+        {props.ghLink && (
+          <Button variant="primary" href={props.ghLink} target="_blank">
+            <BsGithub /> &nbsp;GitHub
+          </Button>
+        )}
 
         {props.demoLink && (
           <Button

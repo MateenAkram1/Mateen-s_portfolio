@@ -22,7 +22,11 @@ import {
   SiTensorflow,
   SiFastapi,
   SiFirebase,
-  SiFlask
+  SiFlask,
+  SiNodedotjs,
+  SiMongodb,
+  SiDocker,
+  SiExpress,
 } from "react-icons/si";
 
 export function Techstack() {
@@ -91,6 +95,26 @@ export function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <span className="tech-label">FastAPI</span>
         <SiFastapi title="FastAPI" /></Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <span className="tech-label">Node.js</span>
+        <SiNodedotjs title="Node.js" />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <span className="tech-label">Express.js</span>
+        <SiExpress title="Express.js" />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <span className="tech-label">MongoDB</span>
+        <SiMongodb title="MongoDB" />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <span className="tech-label">Docker</span>
+        <SiDocker title="Docker" />
+      </Col>
 
       <Col xs={4} md={2} className="tech-icons">
         <span className="tech-label">Selenium</span>

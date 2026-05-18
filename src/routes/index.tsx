@@ -35,12 +35,11 @@ function RouteComponent() {
               <div className="type-wrapper">
                 <Type
                   strings={[
-                    "Software Developer",
-                    "Full Stack Engineer",
-                    "AI Enthusiast",
-                    "App Developer",
-                    "Game Developer",
-                    "Full Stack Web Developer",
+                    "AI Engineer",
+                    "Full Stack Developer",
+                    "Software Engineer",
+                    "Backend & API Developer",
+                    "ML & LLM Integrations",
                   ]}
                 />
               </div>
@@ -64,30 +63,34 @@ function RouteComponent() {
                 LET ME <span className="purple"> INTRODUCE </span> MYSELF
               </h1>
               <p className="home-about-body">
-                I am a Final Year <b className="purple">Computer Sciences</b> student at Fast{" "}
-                <b className="purple">Fast NUCES</b>, and I love learning new
-                things, <b className="purple">solving hard problems</b> and
-                building <i>awesome software</i>.
+                I'm an <b className="purple">AI Engineer</b> and{" "}
+                <b className="purple">Full Stack Software Developer</b> based in
+                Lahore, Pakistan, with a Bachelor of Computer Science degree from{" "}
+                <b className="purple">FAST-NUCES</b>. I build scalable{" "}
+                <b className="purple">AI-powered web apps</b>, automation pipelines,
+                REST APIs, and real-time communication platforms.
                 <br />
                 <br />
-                I’m an <b className="purple">expert</b> in{" "}
+                Proficient in{" "}
                 <i>
                   <b className="purple">Python</b>,{" "}
-                  <b className="purple">JavaScript</b>,{" "}
-                  <b className="purple">C#</b> ,{" "}
-                  <b className="purple">C++ , Dart, React</b> and many more programming Languages
+                  <b className="purple">FastAPI</b>,{" "}
+                  <b className="purple">Next.js</b>,{" "}
+                  <b className="purple">React</b>,{" "}
+                  <b className="purple">Node.js</b>, and{" "}
+                  <b className="purple">TensorFlow</b>
                 </i>
-                .
+                , with strong experience in LLM integrations, Docker, and Agile
+                product development.
                 <br />
-                <br />I enjoy crafting{" "}
+                <br />
+                Currently at <b className="purple">BitPix Soft</b>, I work on
+                voice AI platforms and backend architecture. I enjoy turning{" "}
                 <i>
-                  <b className="purple">Ai based applications</b>
+                  <b className="purple">complex problems</b>
                 </i>{" "}
-                and exploring how <b className="purple">Softwares integrated with AI</b> can
-                make everyday tasks more efficient.
-                <br />
-                <br />
-                </p>
+                into reliable, user-focused software.
+              </p>
             </Col>
             <Col md={4} className="myAvtar">
               <Tilt>
