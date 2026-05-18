@@ -8,38 +8,90 @@
 // You should NOT make any changes in this file as it will be overwritten.
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
-import { Route as rootRouteImport } from './routes/__root'
-import { Route as ResumeRouteImport } from './routes/resume'
-import { Route as ProjectRouteImport } from './routes/project'
-import { Route as ExperienceRouteImport } from './routes/experience'
-import { Route as AboutRouteImport } from './routes/about'
-import { Route as IndexRouteImport } from './routes/index'
+// Import Routes
 
-const ResumeRoute = ResumeRouteImport.update({
+import { Route as rootRoute } from './routes/__root'
+import { Route as ResumeImport } from './routes/resume'
+import { Route as ProjectImport } from './routes/project'
+import { Route as ExperienceImport } from './routes/experience'
+import { Route as AboutImport } from './routes/about'
+import { Route as IndexImport } from './routes/index'
+
+// Create/Update Routes
+
+const ResumeRoute = ResumeImport.update({
   id: '/resume',
   path: '/resume',
-  getParentRoute: () => rootRouteImport,
+  getParentRoute: () => rootRoute,
 } as any)
-const ProjectRoute = ProjectRouteImport.update({
+
+const ProjectRoute = ProjectImport.update({
   id: '/project',
   path: '/project',
-  getParentRoute: () => rootRouteImport,
+  getParentRoute: () => rootRoute,
 } as any)
-const ExperienceRoute = ExperienceRouteImport.update({
+
+const ExperienceRoute = ExperienceImport.update({
   id: '/experience',
   path: '/experience',
-  getParentRoute: () => rootRouteImport,
+  getParentRoute: () => rootRoute,
 } as any)
-const AboutRoute = AboutRouteImport.update({
+
+const AboutRoute = AboutImport.update({
   id: '/about',
   path: '/about',
-  getParentRoute: () => rootRouteImport,
+  getParentRoute: () => rootRoute,
 } as any)
-const IndexRoute = IndexRouteImport.update({
+
+const IndexRoute = IndexImport.update({
   id: '/',
   path: '/',
-  getParentRoute: () => rootRouteImport,
+  getParentRoute: () => rootRoute,
 } as any)
+
+// Populate the FileRoutesByPath interface
+
+declare module '@tanstack/react-router' {
+  interface FileRoutesByPath {
+    '/': {
+      id: '/'
+      path: '/'
+      fullPath: '/'
+      preLoaderRoute: typeof IndexImport
+      parentRoute: typeof rootRoute
+    }
+    '/about': {
+      id: '/about'
+      path: '/about'
+      fullPath: '/about'
+      preLoaderRoute: typeof AboutImport
+      parentRoute: typeof rootRoute
+    }
+    '/experience': {
+      id: '/experience'
+      path: '/experience'
+      fullPath: '/experience'
+      preLoaderRoute: typeof ExperienceImport
+      parentRoute: typeof rootRoute
+    }
+    '/project': {
+      id: '/project'
+      path: '/project'
+      fullPath: '/project'
+      preLoaderRoute: typeof ProjectImport
+      parentRoute: typeof rootRoute
+    }
+    '/resume': {
+      id: '/resume'
+      path: '/resume'
+      fullPath: '/resume'
+      preLoaderRoute: typeof ResumeImport
+      parentRoute: typeof rootRoute
+    }
+  }
+}
+
+// Create and export the route tree
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -48,6 +100,7 @@ export interface FileRoutesByFullPath {
   '/project': typeof ProjectRoute
   '/resume': typeof ResumeRoute
 }
+
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
@@ -55,14 +108,16 @@ export interface FileRoutesByTo {
   '/project': typeof ProjectRoute
   '/resume': typeof ResumeRoute
 }
+
 export interface FileRoutesById {
-  __root__: typeof rootRouteImport
+  __root__: typeof rootRoute
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/experience': typeof ExperienceRoute
   '/project': typeof ProjectRoute
   '/resume': typeof ResumeRoute
 }
+
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths: '/' | '/about' | '/experience' | '/project' | '/resume'
@@ -71,52 +126,13 @@ export interface FileRouteTypes {
   id: '__root__' | '/' | '/about' | '/experience' | '/project' | '/resume'
   fileRoutesById: FileRoutesById
 }
+
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
   ExperienceRoute: typeof ExperienceRoute
   ProjectRoute: typeof ProjectRoute
   ResumeRoute: typeof ResumeRoute
-}
-
-declare module '@tanstack/react-router' {
-  interface FileRoutesByPath {
-    '/resume': {
-      id: '/resume'
-      path: '/resume'
-      fullPath: '/resume'
-      preLoaderRoute: typeof ResumeRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/project': {
-      id: '/project'
-      path: '/project'
-      fullPath: '/project'
-      preLoaderRoute: typeof ProjectRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/experience': {
-      id: '/experience'
-      path: '/experience'
-      fullPath: '/experience'
-      preLoaderRoute: typeof ExperienceRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/about': {
-      id: '/about'
-      path: '/about'
-      fullPath: '/about'
-      preLoaderRoute: typeof AboutRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/': {
-      id: '/'
-      path: '/'
-      fullPath: '/'
-      preLoaderRoute: typeof IndexRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-  }
 }
 
 const rootRouteChildren: RootRouteChildren = {
@@ -126,6 +142,39 @@ const rootRouteChildren: RootRouteChildren = {
   ProjectRoute: ProjectRoute,
   ResumeRoute: ResumeRoute,
 }
-export const routeTree = rootRouteImport
+
+export const routeTree = rootRoute
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
+
+/* ROUTE_MANIFEST_START
+{
+  "routes": {
+    "__root__": {
+      "filePath": "__root.tsx",
+      "children": [
+        "/",
+        "/about",
+        "/experience",
+        "/project",
+        "/resume"
+      ]
+    },
+    "/": {
+      "filePath": "index.tsx"
+    },
+    "/about": {
+      "filePath": "about.tsx"
+    },
+    "/experience": {
+      "filePath": "experience.tsx"
+    },
+    "/project": {
+      "filePath": "project.tsx"
+    },
+    "/resume": {
+      "filePath": "resume.tsx"
+    }
+  }
+}
+ROUTE_MANIFEST_END */
